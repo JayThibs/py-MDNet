@@ -1,9 +1,9 @@
-# py-MDNet
+# py-MDNet-Keras
 
-by [Hyeonseob Nam](https://kr.linkedin.com/in/hyeonseob-nam/) and [Bohyung Han](http://cvlab.postech.ac.kr/~bhhan/) at POSTECH
+by [Jacques Thibodeau](https://www.linkedin.com/in/jacques-thibodeau-483030a1/)
 
 ## Introduction
-Python (PyTorch) implementation of MDNet tracker, which is ~2x faster than the original matlab implementation. 
+Python (Keras) implementation of MDNet tracker. 
 #### [[Project]](http://cvlab.postech.ac.kr/research/mdnet/) [[Paper]](https://arxiv.org/abs/1510.07945) [[Matlab code]](https://github.com/HyeonseobNam/MDNet)
 
 If you're using this code for your research, please cite:
@@ -17,8 +17,12 @@ If you're using this code for your research, please cite:
 	}
  
 ## Prerequisites
-- python 2.7
-- [PyTorch](http://pytorch.org/) and its dependencies 
+- python 3.5
+- [Keras](https://github.com/fchollet/keras) and its dependencies
+- [Tensorflow](https://www.tensorflow.org/)
+- [Numpy](http://www.numpy.org/)
+- [h5py](http://www.h5py.org/) (For Keras model serialization.)
+- [Pillow](https://pillow.readthedocs.io/) (For rendering test results.)
 
 ## Usage
 
