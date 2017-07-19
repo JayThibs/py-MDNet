@@ -3,7 +3,7 @@
 by [Jacques Thibodeau](https://www.linkedin.com/in/jacques-thibodeau-483030a1/)
 
 ## Introduction
-Python (Keras) implementation of MDNet tracker. 
+Python (Keras) implementation of MDNet tracker.
 #### [[Project]](http://cvlab.postech.ac.kr/research/mdnet/) [[Paper]](https://arxiv.org/abs/1510.07945) [[Matlab code]](https://github.com/HyeonseobNam/MDNet)
 
 It is based off the PyTorch implementation by the authors [Hyeonseob Nam](https://www.linkedin.com/in/hyeonseob-nam/?ppe=1) and [Bohyung Han](http://cvlab.postech.ac.kr/~bhhan/) at POSTECH. You can view that implementation [here](https://github.com/HyeonseobNam/py-MDNet).
@@ -19,7 +19,7 @@ If you're using this code for your research, please cite:
 	}
  
 ## Prerequisites
-- python 3.5
+- Python 3.5
 - [Keras](https://github.com/fchollet/keras) and its dependencies
 - [Tensorflow](https://www.tensorflow.org/)
 - [Numpy](http://www.numpy.org/)
